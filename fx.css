@@ -1,0 +1,108 @@
+.fx{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+/* flex-direction */
+.fx-row{
+    flex-direction: row;    
+}
+.fx-row-reverse{
+    flex-direction: row-reverse;    
+}
+.fx-col{
+    flex-direction: col;    
+}
+.fx-col-reverse{
+    flex-direction: col-reverse;    
+}
+
+/* flex-wrap */
+.fx-nowrap{
+    flex-wrap: nowrap;
+}
+.fx-wrap{
+    flex-wrap: wrap;
+}
+.fx-wrap-reverse{
+    flex-wrap: wrap-reverse;
+}
+
+/* justify-content */
+.fx-align-start,.fx-align-left{
+    justify-content: flex-start;
+}
+.fx-align-end,.fx-align-right{
+    justify-content: flex-end;
+}
+.fx-align-center{
+    justify-content: center;
+}
+.fx-align-space-between{
+    justify-content: space-between;
+}
+.fx-align-space-around{
+    justify-content: space-around;
+}
+.fx-align-space-evenly{
+    justify-content: space-evenly;
+}
+
+/* align-items */
+.fx-valign-stretch{
+    align-items: stretch;
+}
+.fx-valign-start, .fx-valign-top{
+    align-items: flex-start;
+}
+.fx-valign-end, .fx-valign-bottom{
+    align-items: flex-end;
+}
+.fx-valign-center{
+    align-items: center;
+}
+.fx-valign-baseline{
+    align-items: baseline;
+}
+
+/* align-content */
+.fx-content-valign-start, .fx-content-valign-top{
+    align-content: flex-start; 
+}
+.fx-content-valign-end, .fx-content-valign-bottom{
+    align-content: flex-end; 
+}
+.fx-content-valign-center{
+    align-content: center; 
+}
+.fx-content-valign-space-between{
+    align-content: space-between;
+}
+.fx-content-valign-space-around{
+    align-content: space-around;
+}
+.fx-content-valign-stretch{
+    align-content: stretch;
+}
+
+/* align-self */
+.fx-item-align-auto {
+    align-self: auto;
+}
+.fx-item-align-start, .fx-item-align-left {
+    align-self: flex-start;
+}
+.fx-item-align-end, .fx-item-align-right {
+    align-self: flex-end;
+}
+.fx-item-align-center {
+    align-self: center;
+}
+.fx-item-align-baseline {
+    align-self: baseline;
+}
+.fx-item-align-stretch {
+    align-self: stretch;
+}
